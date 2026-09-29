@@ -15,7 +15,7 @@ app.use("/api/blogs", require("./routes/blogRoutes"));
 
 app.get("/",(req, res)=>{
     res.json({
-        message:"hello h"
+        message:"hello"
     })
 })
 
