@@ -11,7 +11,4 @@ router.put("/:id", updateBlog)
 router.delete("/:id", removeBlog)
 
 
-
-
-
 module.exports = router
